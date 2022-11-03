@@ -1,0 +1,10 @@
+.fondo4{
+    min-height: 35vh; 
+  
+  }
+.fond5{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.6)) ,url(../img/fonodovfinalk.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 15vh ;   
+  }

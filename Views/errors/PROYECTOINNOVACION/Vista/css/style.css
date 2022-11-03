@@ -1,0 +1,51 @@
+:root{
+    --color-primario:#345EF2;
+}
+.big-banner{
+    min-width: 100vw;
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.6)) ,url(../img/imagen.webp);
+    background-repeat: repeat;
+    background-position: center;
+
+}
+.fond3{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.6)) ,url(../img/fonodovfinalk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;   
+}
+
+.display-1{
+    font-weight: 900;
+    
+}
+
+.btn-primario{
+    background: var(--color-primario);
+    color: #fff;
+    font-size: 24px;
+    line-height: 31px;
+    padding: 5px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-wsp{
+    font-size: 40px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    bottom: 30px;
+    right: 30px;
+    background: #25D366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 10;
+}
+.btn-wsp:hover,.btn-wsp:link,.btn-wsp:visited,.btn-wsp:active{
+    color: white;
+}
